@@ -14,9 +14,9 @@ function App() {
       </div>
       <h1>Welcome to my portfolio.</h1>
       <div className="card">
-        <button>
-          scroll down
-        </button>
+        <div>
+          
+        </div>
       </div>
     </>
   )
