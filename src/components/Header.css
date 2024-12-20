@@ -8,14 +8,19 @@
 }
 
 .AboutHeader {
-    
+    color: white;
+    background-color: black;
     margin-right: 10px;
 }
 
 .ProjectsHeader {
+    color: white;
+    background-color: black;
     margin-right: 0px;
 }
 
 .ContactHeader {
+    color: white;
+    background-color: black;
     margin-left: 10px;
 }

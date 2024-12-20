@@ -13,7 +13,7 @@ function App() {
           <img src={pfp} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Welcome to my portfolio.</h1>
+      <h1 className="titleColor">Welcome to my portfolio.</h1>
       <div className="card">
         <div>
           
