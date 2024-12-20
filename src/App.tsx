@@ -1,13 +1,14 @@
 
 import './App.css'
 import pfp from './assets/pfp.jpeg';
+import Header from './components/Header';
 
 function App() {
-
 
   return (
     <>
       <div>
+        <Header />
         <a target="_blank" rel="noopener">
           <img src={pfp} className="logo react" alt="React logo" />
         </a>

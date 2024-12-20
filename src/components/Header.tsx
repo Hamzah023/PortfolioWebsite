@@ -1,4 +1,4 @@
-
+import './Header.css'
 function Header() {
 
 
@@ -13,20 +13,16 @@ function Header() {
     };
 
     return (
-        <header className="">
+        <header className="header-container">
             <div className="">
-                {/* Logo */}
-                <div className="">
-                    Hamzah's Portfolio
-                </div>
 
-                {/* Navigation */}
-                <nav className="">
-                    <button className="" type="button" onClick={() => handleClick('About')}>About</button>
-                    <button className="" type="button" onClick={() => handleClick('Projects')}>Projects</button>
-                    <button className="" type="button" onClick={() => handleClick('Contact')}>Contact</button>
-                </nav>
+                    <button className="AboutHeader" type="button" onClick={() => handleClick('About')}>About</button>
+                    <button className="ProjectsHeader" type="button" onClick={() => handleClick('Projects')}>Projects</button>
+                    <button className="ContactHeader" type="button" onClick={() => handleClick('Contact')}>Contact</button>
+                
             </div>
         </header>
-    )
-}
+    );
+};
+
+export default Header;
